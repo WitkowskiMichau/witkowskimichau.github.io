@@ -1,0 +1,42 @@
+permalink   : /:categories/:year/:title/
+markdown    : kramdown
+highlighter : pygments
+
+paginate: 6 #6
+comments: true
+paginate_path: "/page/:num"
+
+source: source
+destination: _site
+sass:
+  sass_dir: _scss
+  style: compressed
+
+# Site settings
+title: Web Thoughts
+description: "Place where I am storing post and tutorials"
+email: m.witkowski@beitsy.com
+baseurl: "" # the subpath of your site, e.g. /blog/
+#url: "http://yourdomain.com"
+url: "witkowskimichau.github.io"
+repository: "https://github.com/WitkowskiMichau/witkowskimichau.github.io"
+disqus_shortname: "fernandomoreira"
+google_analytics: UA-52446115-1
+
+# social footer
+social:
+  github:
+    slug: github
+    link: https://github.com/WitkowskiMichau/witkowskimichau.github.io
+#  facebook:
+#    slug: facebook
+#    link: https://www.facebook.com/TheMichalWitkowski
+  twitter:
+    slug: twitter
+    link: https://github.com/WitkowskiMichau/witkowskimichau.github.io
+#  instagram:
+#    slug: instagram
+#    link: http://instagram.com/nandomoreira.me
+  linkedin:
+    slug: linkedin
+    link: http://linkedin.com/in/nandomoreirame

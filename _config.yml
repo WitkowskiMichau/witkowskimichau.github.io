@@ -3,7 +3,7 @@ markdown    : kramdown
 highlighter : pygments
 
 paginate: 6 #6
-comments: true
+comments: false
 paginate_path: "/page/:num"
 
 source: source
